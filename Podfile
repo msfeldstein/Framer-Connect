@@ -4,7 +4,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Framer Connect' do
-pod "CocoaHTTPServer"
 end
 
 target 'Framer ConnectTests' do

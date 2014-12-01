@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72CDF904-9458-4D86-BE0E-213A8026CCE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Framer Connect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B5DE5D866ABCD9E82241243DB1733280EBE9464E</key>
+		<string>github.com:msfeldstein/Framer-Connect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Framer Connect.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B5DE5D866ABCD9E82241243DB1733280EBE9464E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:msfeldstein/Framer-Connect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B5DE5D866ABCD9E82241243DB1733280EBE9464E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B5DE5D866ABCD9E82241243DB1733280EBE9464E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Framer-Connect-Mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>

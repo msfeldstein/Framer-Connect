@@ -14,6 +14,8 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="qrView" destination="wur-HM-ZML" id="Nnc-Rs-F4K"/>
+                <outlet property="qrWindow" destination="HL8-3A-pmT" id="0My-Sp-djo"/>
                 <outlet property="statusMenu" destination="VYU-Ej-jhf" id="FRO-y6-ZJ9"/>
             </connections>
         </customObject>
@@ -674,6 +676,9 @@
                 </menuItem>
                 <menuItem title="QR Code" id="2xU-HY-mLh">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showQR:" target="Voe-Tx-rLC" id="3pT-5X-VtE"/>
+                    </connections>
                 </menuItem>
                 <menuItem title="Quit" id="Bms-8r-kpF">
                     <modifierMask key="keyEquivalentModifierMask"/>
@@ -684,5 +689,30 @@
             </items>
             <point key="canvasLocation" x="183.5" y="180.5"/>
         </menu>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="HL8-3A-pmT">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="131" y="158" width="306" height="373"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="W9w-Nx-EWT">
+                <rect key="frame" x="0.0" y="0.0" width="306" height="373"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wur-HM-ZML">
+                        <rect key="frame" x="40" y="126" width="227" height="227"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="jN8-Xw-8c5"/>
+                    </imageView>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eWI-b5-xRi">
+                        <rect key="frame" x="18" y="20" width="270" height="61"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Scan the QR code with the Framer Connect iOS app if your network doens't allow bonjour connections" id="Jof-SY-Ayr">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="-140" y="474.5"/>
+        </window>
     </objects>
 </document>

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C45BE8A1A2CF4E10036FE4D /* FramerHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BE891A2CF4E10036FE4D /* FramerHTTPConnection.m */; };
+		4C45BE9D1A2D34700036FE4D /* libqrencode in Resources */ = {isa = PBXBuildFile; fileRef = 4C45BE9A1A2D34700036FE4D /* libqrencode */; };
+		4C45BE9E1A2D34700036FE4D /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BE9C1A2D34700036FE4D /* QRCodeGenerator.m */; };
 		4C9348581A2C51B800801A53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9348571A2C51B800801A53 /* AppDelegate.m */; };
 		4C93485A1A2C51B800801A53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9348591A2C51B800801A53 /* main.m */; };
 		4C93485C1A2C51B800801A53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C93485B1A2C51B800801A53 /* Images.xcassets */; };
@@ -30,6 +32,9 @@
 		3ED96A87D2E015658C0E6789 /* Pods-Framer Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framer Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framer Connect/Pods-Framer Connect.debug.xcconfig"; sourceTree = "<group>"; };
 		4C45BE881A2CF4E10036FE4D /* FramerHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramerHTTPConnection.h; sourceTree = "<group>"; };
 		4C45BE891A2CF4E10036FE4D /* FramerHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramerHTTPConnection.m; sourceTree = "<group>"; };
+		4C45BE9A1A2D34700036FE4D /* libqrencode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libqrencode; path = "../../ProtoKit-Mac/ProtoKit/libqrencode"; sourceTree = "<group>"; };
+		4C45BE9B1A2D34700036FE4D /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeGenerator.h; path = "../../ProtoKit-Mac/ProtoKit/QRCodeGenerator.h"; sourceTree = "<group>"; };
+		4C45BE9C1A2D34700036FE4D /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCodeGenerator.m; path = "../../ProtoKit-Mac/ProtoKit/QRCodeGenerator.m"; sourceTree = "<group>"; };
 		4C9348511A2C51B800801A53 /* Framer Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framer Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9348551A2C51B800801A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9348561A2C51B800801A53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +77,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4C45BE9F1A2D34740036FE4D /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				4C45BE9A1A2D34700036FE4D /* libqrencode */,
+				4C45BE9B1A2D34700036FE4D /* QRCodeGenerator.h */,
+				4C45BE9C1A2D34700036FE4D /* QRCodeGenerator.m */,
+			);
+			name = QR;
+			sourceTree = "<group>";
+		};
 		4C9348481A2C51B800801A53 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +110,7 @@
 		4C9348531A2C51B800801A53 /* Framer Connect */ = {
 			isa = PBXGroup;
 			children = (
+				4C45BE9F1A2D34740036FE4D /* QR */,
 				4C9348561A2C51B800801A53 /* AppDelegate.h */,
 				4C9348571A2C51B800801A53 /* AppDelegate.m */,
 				4C93485B1A2C51B800801A53 /* Images.xcassets */,
@@ -223,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C93485C1A2C51B800801A53 /* Images.xcassets in Resources */,
+				4C45BE9D1A2D34700036FE4D /* libqrencode in Resources */,
 				4C93485F1A2C51B800801A53 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C93485A1A2C51B800801A53 /* main.m in Sources */,
+				4C45BE9E1A2D34700036FE4D /* QRCodeGenerator.m in Sources */,
 				4C9348581A2C51B800801A53 /* AppDelegate.m in Sources */,
 				4C45BE8A1A2CF4E10036FE4D /* FramerHTTPConnection.m in Sources */,
 			);

@@ -19,19 +19,8 @@
 		4C93485A1A2C51B800801A53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9348591A2C51B800801A53 /* main.m */; };
 		4C93485C1A2C51B800801A53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C93485B1A2C51B800801A53 /* Images.xcassets */; };
 		4C93485F1A2C51B800801A53 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C93485D1A2C51B800801A53 /* MainMenu.xib */; };
-		4C93486B1A2C51B800801A53 /* Framer_ConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C93486A1A2C51B800801A53 /* Framer_ConnectTests.m */; };
 		E1CDABF08A5F753152668182 /* libPods-Framer Connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2462620793EBD2B0E7FEAE /* libPods-Framer Connect.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4C9348651A2C51B800801A53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C9348491A2C51B800801A53 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C9348501A2C51B800801A53;
-			remoteInfo = "Framer Connect";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3ED96A87D2E015658C0E6789 /* Pods-Framer Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framer Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framer Connect/Pods-Framer Connect.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,14 +40,13 @@
 		4C45BEC91A2D36B50036FE4D /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
 		4C45BECA1A2D36B50036FE4D /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
 		4C45BECB1A2D36B50036FE4D /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
-		4C9348511A2C51B800801A53 /* Framer Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framer Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9348511A2C51B800801A53 /* Framer Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framer Link.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9348551A2C51B800801A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9348561A2C51B800801A53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C9348571A2C51B800801A53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C9348591A2C51B800801A53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C93485B1A2C51B800801A53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C93485E1A2C51B800801A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4C9348641A2C51B800801A53 /* Framer ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Framer ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9348691A2C51B800801A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C93486A1A2C51B800801A53 /* Framer_ConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Framer_ConnectTests.m; sourceTree = "<group>"; };
 		6A2462620793EBD2B0E7FEAE /* libPods-Framer Connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Framer Connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,13 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1CDABF08A5F753152668182 /* libPods-Framer Connect.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C9348611A2C51B800801A53 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +111,7 @@
 		4C9348521A2C51B800801A53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C9348511A2C51B800801A53 /* Framer Connect.app */,
-				4C9348641A2C51B800801A53 /* Framer ConnectTests.xctest */,
+				4C9348511A2C51B800801A53 /* Framer Link.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,26 +182,8 @@
 			);
 			name = "Framer Link";
 			productName = "Framer Connect";
-			productReference = 4C9348511A2C51B800801A53 /* Framer Connect.app */;
+			productReference = 4C9348511A2C51B800801A53 /* Framer Link.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4C9348631A2C51B800801A53 /* Framer ConnectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C9348711A2C51B800801A53 /* Build configuration list for PBXNativeTarget "Framer ConnectTests" */;
-			buildPhases = (
-				4C9348601A2C51B800801A53 /* Sources */,
-				4C9348611A2C51B800801A53 /* Frameworks */,
-				4C9348621A2C51B800801A53 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C9348661A2C51B800801A53 /* PBXTargetDependency */,
-			);
-			name = "Framer ConnectTests";
-			productName = "Framer ConnectTests";
-			productReference = 4C9348641A2C51B800801A53 /* Framer ConnectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -234,14 +196,11 @@
 				TargetAttributes = {
 					4C9348501A2C51B800801A53 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					4C9348631A2C51B800801A53 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 4C9348501A2C51B800801A53;
+						DevelopmentTeam = 7GU3G9VBFN;
 					};
 				};
 			};
-			buildConfigurationList = 4C93484C1A2C51B800801A53 /* Build configuration list for PBXProject "Framer Connect" */;
+			buildConfigurationList = 4C93484C1A2C51B800801A53 /* Build configuration list for PBXProject "Framer Link" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -255,7 +214,6 @@
 			projectRoot = "";
 			targets = (
 				4C9348501A2C51B800801A53 /* Framer Link */,
-				4C9348631A2C51B800801A53 /* Framer ConnectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,13 +225,6 @@
 			files = (
 				4C93485C1A2C51B800801A53 /* Images.xcassets in Resources */,
 				4C93485F1A2C51B800801A53 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C9348621A2C51B800801A53 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,23 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C9348601A2C51B800801A53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C93486B1A2C51B800801A53 /* Framer_ConnectTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4C9348661A2C51B800801A53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C9348501A2C51B800801A53 /* Framer Link */;
-			targetProxy = 4C9348651A2C51B800801A53 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C93485D1A2C51B800801A53 /* MainMenu.xib */ = {
@@ -441,6 +376,7 @@
 			baseConfigurationReference = 3ED96A87D2E015658C0E6789 /* Pods-Framer Connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Framer Connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -453,6 +389,7 @@
 			baseConfigurationReference = E5B07EA2C1116DC78779AAD5 /* Pods-Framer Connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Framer Connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -460,46 +397,10 @@
 			};
 			name = Release;
 		};
-		4C9348721A2C51B800801A53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Framer ConnectTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Framer Connect.app/Contents/MacOS/Framer Connect";
-			};
-			name = Debug;
-		};
-		4C9348731A2C51B800801A53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Framer ConnectTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Framer Connect.app/Contents/MacOS/Framer Connect";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C93484C1A2C51B800801A53 /* Build configuration list for PBXProject "Framer Connect" */ = {
+		4C93484C1A2C51B800801A53 /* Build configuration list for PBXProject "Framer Link" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C93486C1A2C51B800801A53 /* Debug */,
@@ -513,15 +414,6 @@
 			buildConfigurations = (
 				4C93486F1A2C51B800801A53 /* Debug */,
 				4C9348701A2C51B800801A53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4C9348711A2C51B800801A53 /* Build configuration list for PBXNativeTarget "Framer ConnectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C9348721A2C51B800801A53 /* Debug */,
-				4C9348731A2C51B800801A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

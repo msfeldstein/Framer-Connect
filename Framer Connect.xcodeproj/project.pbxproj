@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C45BE8A1A2CF4E10036FE4D /* FramerHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BE891A2CF4E10036FE4D /* FramerHTTPConnection.m */; };
 		4C45BE9E1A2D34700036FE4D /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BE9C1A2D34700036FE4D /* QRCodeGenerator.m */; };
 		4C45BECC1A2D36B50036FE4D /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BEBE1A2D36B50036FE4D /* bitstream.c */; };
 		4C45BECD1A2D36B50036FE4D /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BEC01A2D36B50036FE4D /* mask.c */; };
@@ -36,8 +35,6 @@
 
 /* Begin PBXFileReference section */
 		3ED96A87D2E015658C0E6789 /* Pods-Framer Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framer Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framer Connect/Pods-Framer Connect.debug.xcconfig"; sourceTree = "<group>"; };
-		4C45BE881A2CF4E10036FE4D /* FramerHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramerHTTPConnection.h; sourceTree = "<group>"; };
-		4C45BE891A2CF4E10036FE4D /* FramerHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FramerHTTPConnection.m; sourceTree = "<group>"; };
 		4C45BE9B1A2D34700036FE4D /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeGenerator.h; path = "../../ProtoKit-Mac/ProtoKit/QRCodeGenerator.h"; sourceTree = "<group>"; };
 		4C45BE9C1A2D34700036FE4D /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCodeGenerator.m; path = "../../ProtoKit-Mac/ProtoKit/QRCodeGenerator.m"; sourceTree = "<group>"; };
 		4C45BEBE1A2D36B50036FE4D /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
@@ -148,8 +145,6 @@
 				4C93485B1A2C51B800801A53 /* Images.xcassets */,
 				4C93485D1A2C51B800801A53 /* MainMenu.xib */,
 				4C9348541A2C51B800801A53 /* Supporting Files */,
-				4C45BE881A2CF4E10036FE4D /* FramerHTTPConnection.h */,
-				4C45BE891A2CF4E10036FE4D /* FramerHTTPConnection.m */,
 			);
 			path = "Framer Connect";
 			sourceTree = "<group>";
@@ -191,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C9348501A2C51B800801A53 /* Framer Connect */ = {
+		4C9348501A2C51B800801A53 /* Framer Link */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C93486E1A2C51B800801A53 /* Build configuration list for PBXNativeTarget "Framer Connect" */;
+			buildConfigurationList = 4C93486E1A2C51B800801A53 /* Build configuration list for PBXNativeTarget "Framer Link" */;
 			buildPhases = (
 				D3BE73BC714AD0204CC0D245 /* Check Pods Manifest.lock */,
 				4C93484D1A2C51B800801A53 /* Sources */,
@@ -205,7 +200,7 @@
 			);
 			dependencies = (
 			);
-			name = "Framer Connect";
+			name = "Framer Link";
 			productName = "Framer Connect";
 			productReference = 4C9348511A2C51B800801A53 /* Framer Connect.app */;
 			productType = "com.apple.product-type.application";
@@ -259,7 +254,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C9348501A2C51B800801A53 /* Framer Connect */,
+				4C9348501A2C51B800801A53 /* Framer Link */,
 				4C9348631A2C51B800801A53 /* Framer ConnectTests */,
 			);
 		};
@@ -332,7 +327,6 @@
 				4C45BECF1A2D36B50036FE4D /* qrinput.c in Sources */,
 				4C45BED21A2D36B50036FE4D /* split.c in Sources */,
 				4C9348581A2C51B800801A53 /* AppDelegate.m in Sources */,
-				4C45BE8A1A2CF4E10036FE4D /* FramerHTTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +343,7 @@
 /* Begin PBXTargetDependency section */
 		4C9348661A2C51B800801A53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C9348501A2C51B800801A53 /* Framer Connect */;
+			target = 4C9348501A2C51B800801A53 /* Framer Link */;
 			targetProxy = 4C9348651A2C51B800801A53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C93486E1A2C51B800801A53 /* Build configuration list for PBXNativeTarget "Framer Connect" */ = {
+		4C93486E1A2C51B800801A53 /* Build configuration list for PBXNativeTarget "Framer Link" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C93486F1A2C51B800801A53 /* Debug */,

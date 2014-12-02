@@ -16,6 +16,7 @@
 @property IBOutlet NSMenu* statusMenu;
 @property IBOutlet NSWindow* qrWindow;
 @property IBOutlet NSImageView* qrView;
+@property IBOutlet NSWindow* aboutWindow;
 @end
 
 @implementation AppDelegate
@@ -36,7 +37,13 @@
 }
 
 - (IBAction)showQR:(id)sender {
+    [[NSApplication sharedApplication]activateIgnoringOtherApps:YES];
     [self.qrWindow makeKeyAndOrderFront:nil];
+}
+
+- (IBAction)showAbout:(id)sender {
+    [[NSApplication sharedApplication]activateIgnoringOtherApps:YES];
+    [self.aboutWindow makeKeyAndOrderFront:nil];
 }
 
 - (IBAction)quit:(id)sender {

@@ -14,6 +14,7 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="aboutWindow" destination="92E-Qb-0SU" id="zn0-E3-51G"/>
                 <outlet property="qrView" destination="wur-HM-ZML" id="Nnc-Rs-F4K"/>
                 <outlet property="qrWindow" destination="HL8-3A-pmT" id="0My-Sp-djo"/>
                 <outlet property="statusMenu" destination="VYU-Ej-jhf" id="FRO-y6-ZJ9"/>
@@ -673,6 +674,9 @@
             <items>
                 <menuItem title="About" id="N8h-nj-uD0">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showAbout:" target="Voe-Tx-rLC" id="wyg-4o-cdU"/>
+                    </connections>
                 </menuItem>
                 <menuItem title="QR Code" id="2xU-HY-mLh">
                     <modifierMask key="keyEquivalentModifierMask"/>
@@ -689,7 +693,7 @@
             </items>
             <point key="canvasLocation" x="183.5" y="180.5"/>
         </menu>
-        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="HL8-3A-pmT">
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="HL8-3A-pmT" userLabel="QR Code">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="131" y="158" width="306" height="373"/>
@@ -713,6 +717,38 @@
                 </subviews>
             </view>
             <point key="canvasLocation" x="-140" y="474.5"/>
+        </window>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="92E-Qb-0SU" userLabel="About">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="131" y="158" width="256" height="240"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="LbJ-CA-Xtb">
+                <rect key="frame" x="0.0" y="0.0" width="256" height="240"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yXU-oS-0wo">
+                        <rect key="frame" x="53" y="184" width="150" height="30"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Framer Connect" id="zX4-YG-Nae">
+                            <font key="font" metaFont="system" size="17"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1y-Q4-qXf">
+                        <rect key="frame" x="21" y="53" width="215" height="103"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="3xj-cr-SPj">
+                            <font key="font" metaFont="system"/>
+                            <string key="title">Is a tool built by Michael Feldstein to make it easier to work with Framer Studio.
+
+Send feedback to @msfeldstein or msfeldstein@gmail.com</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="-621" y="398"/>
         </window>
     </objects>
 </document>
